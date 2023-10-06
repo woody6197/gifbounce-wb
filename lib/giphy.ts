@@ -8,7 +8,6 @@ if (!process.env.GIPHY_KEY) {
 const gf = new GiphyFetch(process.env.GIPHY_KEY);
 
 export async function getTrendingData(options: TrendingOptions) {
-  await new Promise((resolve) => setTimeout(resolve, 2000)); // @todo Remove
   //  @todo Change to `fetch` for cache.
   const response = await gf.trending(options);
   return response.data;
