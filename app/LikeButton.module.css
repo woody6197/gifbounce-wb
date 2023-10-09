@@ -1,0 +1,17 @@
+.LikeButton {
+  display: inline-block;
+  margin: 10px;
+}
+
+.LikeButton {
+  background-color: #c68a07;
+  color: white;
+  border: none;
+  padding: 5px 100px;
+  cursor: pointer;
+}
+
+.LikeCount {
+  margin-left: 10px;
+  font-weight: bold;
+}
